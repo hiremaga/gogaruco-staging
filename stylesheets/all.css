@@ -5596,38 +5596,27 @@ footer {
 
 /* line 1, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
 #small_banner {
-  background: url("../images/header-bg.jpg?1368688171") no-repeat bottom center;
-  background-size: auto 400px;
+  background: url("../images/innerpage-header.jpg") center;
+  background-size: cover;
   text-transform: uppercase;
   height: 224px; }
   /* line 7, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
-  #small_banner .event-sponsors-heading {
-    margin: 0 auto;
-    text-align: center;
-    height: 44px; }
-    /* line 24, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/all.css.scss */
-    #small_banner .event-sponsors-heading h2 {
-      height: 88px;
-      color: #efefef;
-      float: left;
-      width: 100%;
-      background: url("../images/title-ribbon.png?1368688171") no-repeat center center;
-      text-transform: uppercase;
-      font-family: 'Square721BT-BoldExtended';
-      font-size: 26px;
-      padding: 24px 0;
-      margin-top: 0; }
-    /* line 10, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
-    #small_banner .event-sponsors-heading h2 {
-      margin-top: 73px; }
-  /* line 15, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
+  #small_banner h2 {
+    height: 88px;
+    color: #efefef;
+    text-transform: uppercase;
+    font-family: 'Square721BT-BoldExtended';
+    font-size: 26px;
+    padding: 24px 0;
+    margin-top: 0;
+    float: right;
+    margin-top: 76px; }
+  /* line 19, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
   #small_banner img {
-    position: relative;
-    bottom: 153px;
-    height: 230px;
-    left: 290px; }
+    margin: 30px 0 0 -41px;
+    height: 230px; }
 
-/* line 23, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
+/* line 25, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
 #sponsoring {
   padding-top: 65px;
   padding-bottom: 67px;
@@ -5635,22 +5624,22 @@ footer {
   background-color: #f9bf12;
   color: #836407;
   line-height: 1.9em; }
-  /* line 31, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
+  /* line 33, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
   #sponsoring a {
     color: #ffefbe; }
-  /* line 35, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
+  /* line 37, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
   #sponsoring #about-sponsoring {
     font-size: 1.1875em; }
-    /* line 38, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
+    /* line 40, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
     #sponsoring #about-sponsoring strong {
       font-family: "Antenna-Bold"; }
-  /* line 43, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
+  /* line 45, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
   #sponsoring #learn-more {
     font-size: 1em;
     display: block;
     margin-top: 0.5em; }
 
-/* line 50, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
+/* line 52, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
 #diamond-sponsors-heading {
   margin: 0 auto;
   text-align: center;
@@ -5669,24 +5658,23 @@ footer {
     padding: 24px 0;
     margin-top: 0; }
 
-/* line 55, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
+/* line 57, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
 #diamond-sponsors {
-  background: url("../images/speaker-bg.jpg?1368688171") no-repeat center center;
-  background-size: cover; }
-  /* line 59, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
+  background: url("../images/speaker-bg.jpg?1368688171"); }
+  /* line 60, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
   #diamond-sponsors .sponsor-image {
     width: 260px;
     height: 260px;
     border: 6px solid #852050; }
-  /* line 65, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
+  /* line 66, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
   #diamond-sponsors p {
     display: block;
     margin-top: 20px; }
-    /* line 69, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
+    /* line 70, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
     #diamond-sponsors p em {
       color: #6a2045; }
 
-/* line 75, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
+/* line 76, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
 #platinum-sponsors-heading {
   margin: 0 auto;
   text-align: center;
@@ -5705,19 +5693,19 @@ footer {
     padding: 24px 0;
     margin-top: 0; }
 
-/* line 80, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
+/* line 81, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
 #platinum-sponsors {
   background-image: url("../images/whats-new-bg.jpg?1368688171"); }
-  /* line 83, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
+  /* line 84, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
   #platinum-sponsors .sponsor-image {
     width: 163px;
     height: 163px;
     border: 4px solid #388f12; }
-  /* line 90, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
+  /* line 91, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
   #platinum-sponsors p em {
     color: #beef54; }
 
-/* line 96, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
+/* line 97, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
 #gold-sponsors-heading {
   margin: 0 auto;
   text-align: center;
@@ -5736,25 +5724,25 @@ footer {
     padding: 24px 0;
     margin-top: 0; }
 
-/* line 101, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
+/* line 102, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
 #gold-sponsors {
-  background-image: url("../images/whats-new-bg.jpg?1368688171"); }
-  /* line 104, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
+  background-image: url("../images/blue-bg.jpg"); }
+  /* line 105, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
   #gold-sponsors .sponsor_wrapper {
     width: 171px;
     margin: 0 auto;
     display: block;
     margin-bottom: 26px; }
-  /* line 111, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
+  /* line 112, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
   #gold-sponsors .sponsor-image {
     width: 163px;
     height: 163px;
     border: 4px solid #015d80; }
-  /* line 118, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
+  /* line 119, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
   #gold-sponsors p em {
     color: #64d5ff; }
 
-/* line 124, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
+/* line 125, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
 #silver-sponsors-heading {
   margin: 0 auto;
   text-align: center;
@@ -5773,62 +5761,62 @@ footer {
     padding: 24px 0;
     margin-top: 0; }
 
-/* line 129, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
+/* line 130, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
 #silver-sponsors {
-  background-image: url("../images/whats-new-bg.jpg?1368688171"); }
-  /* line 132, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
+  background-image: url("../images/yellow-bg.jpg"); }
+  /* line 133, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
   #silver-sponsors .sponsor_wrapper {
     width: 171px;
     margin: 0 auto;
     display: block;
     margin-bottom: 26px; }
-  /* line 139, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
+  /* line 140, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
   #silver-sponsors .sponsor-image {
     width: 163px;
     height: 163px;
     border: 4px solid #015d80; }
-  /* line 145, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
+  /* line 146, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
   #silver-sponsors p {
     color: #836408; }
-    /* line 147, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
+    /* line 148, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
     #silver-sponsors p em {
       color: #ffefbe; }
 
-/* line 153, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
+/* line 154, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
 .sponsor_section {
   padding-top: 107px;
   padding-bottom: 77px; }
-  /* line 156, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
+  /* line 157, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
   .sponsor_section .sponsor-image {
     text-align: center;
     margin: 0 auto;
     background-color: white;
     display: table-cell;
     vertical-align: middle; }
-  /* line 164, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
+  /* line 165, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
   .sponsor_section p {
     color: white;
     font-size: 1em;
     line-height: 1.6em; }
-    /* line 169, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
+    /* line 170, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
     .sponsor_section p em {
       font-style: normal; }
 
-/* line 175, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
+/* line 176, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
 .tweeter_section {
   background-color: #00adbb;
   padding-top: 50px;
   padding-bottom: 84px; }
-  /* line 180, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
+  /* line 181, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
   .tweeter_section .tweet {
     float: left;
     background: url("../images/tweet-bg.png?1368688171");
     background-repeat: no-repeat;
     background-position: 75px 0px; }
-    /* line 186, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
+    /* line 187, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
     .tweeter_section .tweet * {
       float: left; }
-    /* line 190, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
+    /* line 191, /Users/jhart/Sites/gogaruco.github.com/source/stylesheets/_sponsors.css.scss */
     .tweeter_section .tweet p {
       padding: 17px 0 0 25px;
       display: block;
